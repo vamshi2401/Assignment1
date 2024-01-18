@@ -1,0 +1,11 @@
+def major_ele(arr):
+    n = len(arr)
+    c =0
+    for ele in arr:
+        if ele > n//2:
+            c = ele
+    print(c)
+
+
+arr = list(map(int,input().split()))
+major_ele(arr)
