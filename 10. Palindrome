@@ -1,0 +1,19 @@
+def palindrome(num):
+    temp=num
+    rev=0
+    rem=0
+    while temp>0:
+        rem= temp % 10
+        rev = (rev*10) + rem
+        temp=temp//10
+
+    if rev==num:
+        print("1")
+    else:
+        print("0")
+
+
+num=int(input())
+if num>0:
+    palindrome(num)
+    
