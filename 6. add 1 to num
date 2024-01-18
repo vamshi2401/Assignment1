@@ -1,0 +1,12 @@
+def add(arr):
+    s=""
+    for ele in arr:
+        s+=str(ele)
+    num=int(s)
+    num+=1
+    print(list(str(num)))
+
+arr=list(map(int, input().split()))
+add(arr)
+
+
