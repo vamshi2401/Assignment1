@@ -1,0 +1,13 @@
+def intersection(A,B):
+    res=[]
+    for ele in B:
+        if ele in A:
+            res.append(ele)
+
+    return res
+
+
+A=list(map(int, input().split()))
+B=list(map(int, input().split()))
+x=intersection(A, B)
+print(x)
